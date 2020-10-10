@@ -1,0 +1,95 @@
+h1{
+  background-color: cadetblue;
+  text-align: center;
+}
+
+a{
+  display: block;
+  background-color: mediumslateblue;
+}
+
+h2{
+  background-color: greenyellow;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  background-color: indianred;
+}
+
+nav{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  background-color: #333333;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.nav{
+  display: flex;
+}
+
+li{
+  margin: 0 25px;
+  list-style: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.icon-small{
+  display: block;
+  size: 16px;
+}
+
+section{
+  background-color: burlywood;
+  padding: 10px;
+  border: solid 1px gray;
+}
+
+.profile-title{
+  display: flex;
+}
+
+/* img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+} */
+
+.work{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-box{
+  background-color: chocolate;
+  border: solid 2px black;
+  height: 300px;
+  width: 45%;
+}
+
+.skill{
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-box{
+  background-color: lightgoldenrodyellow;
+  width: 40%;
+}
+
+.skill-mini-box{
+  background-color: maroon;
+  display: flex;
+  justify-content: center;
+}
