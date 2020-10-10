@@ -1,10 +1,31 @@
 h1{
-  background-color: cadetblue;
   text-align: center;
+}
+
+nav{
+  /* display: flex; */
+  justify-content: center;
+}
+
+.nav{
+  width: 600px;
+  background-color: khaki;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+}
+
+.icon-small{
+  /* display: inline-block; */
+  size: 16px;
 }
 
 a{
   display: block;
+  text-decoration: none;
   background-color: mediumslateblue;
 }
 
@@ -20,20 +41,10 @@ p{
   background-color: indianred;
 }
 
-nav{
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-}
-
 ul{
-  background-color: #333333;
+  background-color: #999999;
   /* display: flex; */
   /* justify-content: center; */
-}
-
-.nav{
-  display: flex;
 }
 
 li{
@@ -43,10 +54,7 @@ li{
   text-align: center;
 }
 
-.icon-small{
-  display: block;
-  size: 16px;
-}
+
 
 section{
   background-color: burlywood;
