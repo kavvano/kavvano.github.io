@@ -19,7 +19,7 @@ li{
   text-align: center;
 }
 
-a{
+nav a{
   display: block;
   text-decoration: none;
   font-size: 32px;
@@ -95,4 +95,9 @@ section{
   background-color: maroon;
   display: flex;
   justify-content: center;
+}
+
+footer{
+  text-align: center;
+  margin: 10px;
 }
