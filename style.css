@@ -4,7 +4,11 @@
 }
 
 h1{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
   text-align: center;
+  margin: 20px 0;
 }
 
 nav ul{
@@ -20,19 +24,20 @@ nav li{
 }
 
 nav a{
+  margin: 0 10px;
   display: block;
   text-decoration: none;
   font-size: 32px;
 }
 
 nav div{
-  padding: 10px 15px;
+  padding: 20px 10px;
   display: flex;
 }
 
 nav img{
-  height: 32px;
-  padding: 0 5px 0 0;
+  height: 36px;
+  padding: 0 10px 0 0;
 }
 
 h2{
