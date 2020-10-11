@@ -7,14 +7,14 @@ h1{
   text-align: center;
 }
 
-.nav{
+nav ul{
   width: 700px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-li{
+nav li{
   list-style: none;
   text-align: center;
 }
@@ -25,12 +25,12 @@ nav a{
   font-size: 32px;
 }
 
-.link-box{
+nav div{
   padding: 10px 15px;
   display: flex;
 }
 
-.icon-small{
+nav img{
   height: 32px;
   padding: 0 5px 0 0;
 }
@@ -60,12 +60,6 @@ section{
 .profile-title{
   display: flex;
 }
-
-/* img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-} */
 
 .work{
   display: flex;
