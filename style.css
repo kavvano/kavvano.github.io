@@ -3,6 +3,14 @@
   font-family: system-ui;
 }
 
+body{
+  background-image: url(./images/header.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 h1{
   font-size: 50px;
   font-weight: bold;
@@ -24,76 +32,121 @@ nav li{
 }
 
 nav a{
-  margin: 0 10px;
+  margin: 10px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav div{
+  padding: 10px 10px;
+  display: flex;
+}
+
+nav img{
+  height: 32px;
+  margin-right: 10px;
+}
+
+section{
+  margin: 50px 200px;
+  padding: 0 20px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px 0 rgba(33, 33, 33, 0.5);
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+}
+
+div.profile img{
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+
+div.profile p{
+  line-height: 1.5;
+  margin: 10px 20px;
+  border: solid 1px black;
+  font-size: 18px;
+}
+
+.skill{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.skill-mini-box{
+  display: flex;
+  justify-content: center;
+}
+
+div.skill-mini-box li{
+  width: 120px;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  margin: 5px 15px;
+  white-space: nowrap;
+}
+
+.works{
+  background-color: palegreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.works-box{
+  background-color: paleturquoise;
+  width: calc((100% - 20px) / 2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+ul.contact li{
+  list-style: none;
+}
+
+ul.contact a{
+  margin: 10px 10px;
   display: block;
   text-decoration: none;
   font-size: 32px;
 }
 
-nav div{
-  padding: 20px 10px;
+ul.contact div{
+  padding: 10px 10px;
   display: flex;
 }
 
-nav img{
-  height: 36px;
-  padding: 0 10px 0 0;
-}
-
-h2{
-  text-align: center;
-}
-
-h3{
-  text-align: center;
-}
-
-p{
-  background-color: indianred;
-}
-
-
-
-
-
-section{
-  background-color: burlywood;
-  padding: 10px;
-  border: solid 1px gray;
-}
-
-.profile-title{
-  display: flex;
-}
-
-.work{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.work-box{
-  background-color: chocolate;
-  border: solid 2px black;
-  height: 300px;
-  width: 45%;
-}
-
-.skill{
-  background-color: khaki;
-  display: flex;
-  justify-content: center;
-}
-
-.skill-box{
-  background-color: lightgoldenrodyellow;
-  width: 40%;
-}
-
-.skill-mini-box{
-  background-color: maroon;
-  display: flex;
-  justify-content: center;
+ul.contact img{
+  height: 32px;
+  margin-right: 10px;
 }
 
 footer{
