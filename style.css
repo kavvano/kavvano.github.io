@@ -1,9 +1,9 @@
-*{
+* {
   color: #212121;
   font-family: system-ui;
 }
 
-body{
+body {
   background-image: url(./images/header.JPG);
   background-position: center;
   background-repeat: no-repeat;
@@ -11,111 +11,105 @@ body{
   background-size: cover;
 }
 
-h1{
-  font-size: 50px;
+h1 {
+  font-size: 3.5em;
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
   margin: 20px 0;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 
-nav ul{
-  width: 700px;
+nav ul {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
 }
 
-nav li{
-  list-style: none;
-  text-align: center;
-}
-
-nav a{
+nav a {
   margin: 10px 10px;
   display: block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 2em;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 
-nav div{
+nav div {
   padding: 10px 10px;
   display: flex;
 }
 
-nav img{
-  height: 32px;
+nav img {
+  height: 1em;
   margin-right: 10px;
+  filter: drop-shadow(1px 1px 0 #ffffff);
 }
 
-section{
+section {
   margin: 50px 200px;
   padding: 0 20px 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 0 0 10px 0 rgba(33, 33, 33, 0.5);
 }
 
-h2{
-  font-size: 32px;
+h2 {
+  font-size: 2em;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
   padding: 20px 0 20px;
 }
 
-.profile{
+.profile {
   display: flex;
   align-items: center;
 }
 
-div.profile img{
-  height: 150px;
+div.profile img {
+  height: 10em;
+  border: solid 2px rgba(255, 255, 255, 0.75);
   border-radius: 50%;
   margin: 10px 20px;
 }
 
-div.profile p{
+div.profile p {
   line-height: 1.5;
   margin: 10px 20px;
-  border: solid 1px black;
-  font-size: 18px;
+  font-size: 1.25em;
 }
 
-.skill{
+.skill {
   display: flex;
   justify-content: center;
 }
 
-h3{
-  font-size: 24px;
+h3 {
+  font-size: 1.5em;
   text-align: center;
   padding: 10px 0;
 }
 
-.skill-mini-box{
+.skill-mini-box {
   display: flex;
   justify-content: center;
+  padding: 0 15px;
 }
 
-div.skill-mini-box li{
-  width: 120px;
-  font-size: 20px;
+div.skill-mini-box li {
+  font-size: 1.25em;
   list-style: none;
   text-align: center;
-  margin: 5px 15px;
+  margin: 10px 10px;
   white-space: nowrap;
 }
 
-.works{
-  background-color: palegreen;
+.works {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.works-box{
-  background-color: paleturquoise;
+.works-box {
   width: calc((100% - 20px) / 2);
   margin-bottom: 20px;
   display: flex;
@@ -123,33 +117,44 @@ div.skill-mini-box li{
   align-items: center;
 }
 
-.contact{
+div.works-box img {
+  padding: 0 10px 10px;
+  width: calc( 100% - 20px );
+}
+
+div.works-box p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0 10px 10px;
+}
+
+.contact {
   display: flex;
   justify-content: center;
 }
 
-ul.contact li{
+ul.contact li {
   list-style: none;
 }
 
-ul.contact a{
+ul.contact a {
   margin: 10px 10px;
   display: block;
   text-decoration: none;
   font-size: 32px;
 }
 
-ul.contact div{
+ul.contact div {
   padding: 10px 10px;
   display: flex;
 }
 
-ul.contact img{
+ul.contact img {
   height: 32px;
   margin-right: 10px;
 }
 
-footer{
+footer {
   text-align: center;
   margin: 10px;
 }
