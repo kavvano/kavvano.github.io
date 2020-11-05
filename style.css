@@ -120,12 +120,17 @@ div.skill-mini-box li {
 div.works-box img {
   margin-bottom: 10px;
   width: 100%;
+  border: solid 1px lightgray;
 }
 
 div.works-box p {
-  line-height: 1.5;
+  line-height: 1.75;
   font-size: 1em;
   padding: 0 10px 10px;
+}
+
+.annotation {
+  color: red;
 }
 
 .contact {
