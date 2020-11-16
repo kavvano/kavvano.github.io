@@ -4,11 +4,12 @@
 }
 
 body {
-  background-image: url(./images/header.JPG);
-  background-position: center;
+  background-color: #cccccc;
+  /* background-image: url(./images/header.JPG); */
+  /* background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
 }
 
 h1 {
@@ -105,12 +106,15 @@ div.skill-mini-box li {
 
 .works {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
 }
 
 .works-box {
-  width: calc((100% - 20px) / 2);
+  /* width: calc((100% - 20px) / 2); */
+  width: calc(100% - 40px);
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
