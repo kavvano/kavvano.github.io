@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #cccccc;
+  background-color: #eeeeee;
   /* background-image: url(./images/header.JPG); */
   /* background-position: center;
   background-repeat: no-repeat;
@@ -104,6 +104,14 @@ div.skill-mini-box li {
   white-space: nowrap;
 }
 
+.supplement {
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #000066;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
 .works {
   display: flex;
   flex-direction: column;
@@ -129,7 +137,7 @@ div.works-box img {
 
 div.works-box p {
   line-height: 1.75;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: 0 10px 10px;
 }
 
